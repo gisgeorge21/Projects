@@ -1,0 +1,66 @@
+*{
+    font-size: 12px;
+    font-family:CircularStd;
+}
+.contentHeader{
+    font-family:CircularStd,sans-serif;
+    font-size: 3em;
+    font-weight:bold;
+}
+.content{
+    font-family: Rubik,sans-serif;
+    font-size: 2em;
+}
+
+.buttonFont{
+    font-size: 1em;
+    font-family: sans-serif,Rubik;
+    
+}
+
+.mainHeaderText{
+    font-size: 5em;
+    font-family: Circular Std Book,sans-serif;
+}
+@media screen and (max-width:1000px){
+    .mainHeaderText{
+        font-size: 4em;
+    }
+}
+@media screen and (max-width:800px){
+    .contentHeader{
+        font-size:2.5em;
+    }
+    .content{
+        font-size: 1.5em;
+    }
+    .buttonFont{
+        font-size: 1.7em;
+    }
+    .mainHeaderText{
+        font-size: 3.5em;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    .contentHeader{
+        font-family:CircularStd;
+        font-size: 2.5em;
+        font-weight:bold;
+    }
+    .content{
+        font-family: Rubik,sans-serif;
+        font-size: 1.5em; 
+    }
+    .buttonFont{
+        font-size: 1.2em;
+    }
+    .mainHeaderText{
+        font-size: 2.5em;
+    }
+}
+
+.textAlignCenter{
+    text-align: center;
+}
