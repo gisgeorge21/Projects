@@ -1,0 +1,349 @@
+.socialMediaContent
+{
+height: inherit;
+
+}
+
+.AufHead{
+
+  text-align: center;
+  font-family: CircularStd,sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #282828;
+  text-align: center;
+}
+
+.HolenPara {
+  font-family: Rubik,sans-serif;
+  font-size:1.6em;
+  color: rgb(80, 80, 80);
+  text-align: center;
+
+}
+.mob{
+  display: flex;
+}
+.mob1{
+  width:100%;
+
+}
+.story1{
+  background-image: url("./imglat/Images&VimeoLinks/img/Phone1InstaStory.jpg");
+  width:100%;
+  height:40vw;
+
+
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size:contain;
+  margin-left: 15%;
+
+}
+
+.teststory1{
+  width:100%;
+  height:40vw;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size:contain;
+  margin-left: 15%;
+
+}
+.insta{
+  background-image: url("./imglat/Images&VimeoLinks/img/instagram.jpg");
+  width:100%;
+  height:5vw;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size:contain;
+  margin-left:-5%;
+  margin-top: 5%;
+
+}
+.youtube{
+  background-image: url("./imglat/Images&VimeoLinks/img/youtube.png");
+  width:100%;
+  height:5vw;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size:contain;
+  margin-left: 15%;
+  margin-top: 5%;
+  border-radius:1vw;
+}
+.facebook{
+  background-image: url("./imglat/Images&VimeoLinks/img/facebook.png");
+  width:100%;
+  height:5vw;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size:contain;
+  margin-left: 5%;
+  margin-top: 5%;
+  
+}
+.printest{
+  background-image: url("./imglat/Images&VimeoLinks/img/printest.png");
+  width:100%;
+  height:5vw;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size:contain;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+.instarightside{
+  width:100%;
+  margin-left: -20%;
+}
+.feedpad1{
+  background-color: white;
+  padding:2%;
+  font-family: CircularStd;
+  font-size: 1.5vw;
+  
+  
+}
+.feedpad2{
+  margin-top: -77%;
+  background-color: white;
+  margin-left: 10%;
+  font-family: CircularStd;
+  padding: 2%;
+  font-size: 1.5vw;
+}
+
+
+
+.feed{
+  width:100%;
+  height:25vw;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size:contain;
+  margin-top: 30%;
+  margin-left: 48%;
+
+}
+.feed2{
+  width:100%;
+  height:25vw;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size:contain;
+  margin-top: 10%;
+  margin-left: 10%;
+  
+  
+
+}
+.secondco{
+  width:100%;
+  margin-right: -30vw;
+}
+.thirdco{
+  width:100%;
+}
+.story2{
+  /*background-image: url("./imglat/Images&VimeoLinks/img/Phone 2InstaFeed.png");*/
+  width:100%;
+  height:40vw;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size:contain;
+  margin-top: -60%;
+  margin-left: 5vw;
+}
+.replaybtn{
+  margin-left :26%;
+  margin-top: 1%;
+}
+.repbtn{
+  border: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0px; 
+  color:#32b2a5;
+  font-weight:bold;
+  cursor: pointer;
+}
+
+.cl{
+  background-color: rgb(245, 244, 244);
+}
+
+
+.card {
+  display: flex;
+flex-direction: column;
+width: fit-content;
+}
+.card-header{
+width:100%;
+height:12%;
+text-align: right;
+background: white;
+border-top-left-radius: 1vw;
+border-top-right-radius: 1vw;
+}
+
+.card-header img{
+float: left;
+}
+
+.card-main{
+  height:76%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: 100% 100%;
+}
+
+.card-footer{
+width:100%;
+height:12%;
+background: white;
+border-bottom-left-radius: 1vw;
+border-bottom-right-radius: 1vw;
+}
+
+.imageClassInstagram{
+  width: 22.5vw;
+  height: 44.04vw;
+}
+
+.imageClassPinrest{
+  width:22.5vw;
+  height: 30.0vw;
+}
+
+.imageClassInstagram2{
+  width:22.5vw;
+  height: 29.98vw;
+}
+
+.imageClassInstagramFeed{
+  width:22.5vw;
+  height: 43.5678vw;
+}
+
+.social-media-logo{
+  height: 5vw;
+  margin-top: -2.5vw;
+  margin-left: 1vw;
+  z-index: 1;
+ position: absolute;
+}
+.byGiggleFont{
+  font-size: 2vw;
+  font-family: rubik,sans-serif;
+
+}
+.card-footer-header-spacing{
+  height:4.2vw;
+}
+
+.background-none{
+background: none;
+}
+
+.align-text-center{
+  text-align: center;
+}
+
+.positionabsolute{
+  position: absolute;
+}
+
+.imageClassInstagramFeedBackPhone{
+  position: absolute;
+  width:22.5vw;
+  height: 43.5678vw;
+}
+
+@media screen and (max-width:420px){
+  .mob{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+  }
+  .mob1{
+    margin:0;
+    margin-top: 1%;
+    margin-top: 1%;
+  }
+  .mob1 div{
+    margin: 0;
+  }
+  .secondco{
+    margin:0;
+    margin-top: 1%;
+    margin-top: 1%;
+  }
+  .secondco div{
+    margin: 0;
+  }
+  .thirdco{
+    margin:0;
+    margin-top: 1%;
+    margin-top: 1%;
+  }
+  .thirdco div{
+    margin: 0;
+  }
+  .story2{
+height: auto;
+  }
+  .feed{
+    height: auto;
+  }
+  .feed2{
+    height: auto;
+  }
+  .feed2 .card{
+    position: initial;
+  }
+  .mob .instarightside{
+    display: none;
+  }
+  .mob .facebook{
+    display:none;
+  }
+  .socialMediaContent{
+    height:inherit;
+  }
+  .socialMediaContent div{
+    width:100%;
+  }
+
+  .card-main .imageClassInstagram{
+    height: 80vh;
+    width:100%;
+  }
+  .mob1 .teststory1{
+    height:inherit;
+  }
+  .card-main .imageClassPinrest{
+    height: 60vh;
+    width:100%;
+  }
+  .card-main .imageClassInstagram2{
+    height: 60vh;
+    width:100%;
+  }
+  .card-main .imageClassInstagramFeed{
+    height: 80vh;
+    width:100%;
+  }
+  .byGiggleFont{
+    font-size:20px;
+  }
+  .card-header{
+    height:inherit;
+  }
+ .social-media-logo {
+  height: 5%;
+  margin-top: -4%;
+  margin-left: 3%;
+ }
+}
