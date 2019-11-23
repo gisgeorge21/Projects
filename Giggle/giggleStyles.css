@@ -1,0 +1,82 @@
+.backcolor{
+    background-color:white;
+}
+.giggleCard{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+}
+.giggleCardItems{
+    height: inherit;
+}
+.gigglesvg{
+    background: url('./giggletipssectionsvg.svg');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-x: 0%;
+    background-position-y: 0%;
+}
+.padhead{
+    padding-top: 4%;
+}
+.requestbutton4{
+    background-color: #32b2a5;
+        
+    height : 40px;
+    width : 250px;
+    color : white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .btnFont4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.padding3per{
+    margin-top: 3%;
+}
+@media screen and (max-width:600px) {
+    .requestbutton4{
+        background-color: #32b2a5;
+        
+        height : 35px;
+        width : 200px;
+        color : white;
+        font-weight: bold;
+    
+    
+}
+.btnFont4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+}
+
+
+/*
+.giggleHead{
+width: 100%;
+text-align: center;
+font-weight: bold;
+}
+
+.giggleMain{
+    width: 100%;
+}
+.giggleFoot{
+    width: 100%;
+}
+.width100per{
+    width: 100%;
+}
+.WirrPara{
+    font-family: Rubik;
+    font-size:1.5vw;
+    color: #505050;
+    text-align: center;
+  }
+  .mehrbtn{
+      margin-left: 10%;
+  }
+
+  */

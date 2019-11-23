@@ -1,0 +1,31 @@
+.last-bottom-part *{
+    font-size: 15px;
+}
+.last-Giggle *{
+    font-size: 15px;
+}
+@media screen and (max-width:420px) {
+    .last-bottom-part {
+        display: flex;
+        flex-direction: column;
+    }
+    .firstOne{
+        width:100%;
+        margin-top:1%;
+    }
+    .secondOne{
+        width:100%;
+        margin-top:4%;
+    }
+    .thirdOne{
+        width:100%;
+        margin-top:1%;
+    }
+    .last-bottom-part *{
+        font-size: 15px;
+    }
+    .last-Giggle *{
+        font-size: 15px;
+    }
+
+}
