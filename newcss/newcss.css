@@ -1,0 +1,56 @@
+.flexmain{
+    -ms-box-orient:horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    height: inherit;
+    padding: 3%;
+
+}
+.flextextBox{
+    flex-basis:60%;
+}
+.flextext{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    font-size: 2.5em;
+    text-align: right;
+}
+.fleximg{
+    flex-basis:40%;
+    height:80.5vh;
+    background-image: url("");
+    background-size: contain;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+.textBox{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:800px){
+    .content{
+        font-size: 2em;
+        text-align: right;
+    }
+}
+.flextextBoxContent{
+    height: inherit;
+}
+@media screen and (max-width:600px){
+    .flexmain{
+        flex-wrap: wrap;
+    }
+    .flextextBox{
+        flex-grow:1;
+    }
+    .fleximg{
+        flex-grow: 1;
+        background-size: cover;
+    }
+}
