@@ -9,7 +9,7 @@ Update the master branch from the remote using the command
 
 `git pull origin master`
 
-Now yor branch is updated with latest changes.
+Now your branch is updated with latest changes.
 
 Now we need to work on our task/bugs, for that, create new branch from the `master` using the command
 
@@ -17,7 +17,7 @@ Now we need to work on our task/bugs, for that, create new branch from the `mast
 
 PS: Keep the branch name always unique, ie if you create a branch name with `animation-issue`, next time you create a branch, dont use the same name as `animation-issue` , it will cause errors if the branch is already present in the remote
 
-Then, do you code changes, after the change do the following command,
+Then, do your code changes, after the change do the following command,
 
 1. stage all the unstaged files or new files using the command
 
