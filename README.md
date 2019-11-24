@@ -1,5 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Clone the application to your local using the command
+
+`git clone https://github.com/gisgeorge21/Projects.git`
+
+Now you will be in the `master` branch of the repo. You can see the above folder structure in your local.
+
+Update the master branch from the remote using the command
+
+`git pull origin master`
+
+Now yor branch is updated with latest changes.
+
+Now we need to work on our task/bugs, for that, create new branch from the `master` using the command
+
+`git checkout -b <your_branch_name>`
+
+PS: Keep the branch name always unique, ie if you create a branch name with `animation-issue`, next time you create a branch, dont use the same name as `animation-issue` , it will cause errors if the branch is already present in the remote
+
+Then, do you code changes, after the change do the following command,
+
+1. stage all the unstaged files or new files using the command
+
+`git add .`
+
+2. commit all your changes 
+
+`git commit -am "<your_commit_message>"`, 
+
+3. Update your local branch with the command
+
+`git pull origin master`
+
+by upodating the branch, if someone makes any changes the same file that you worked, it will see a s conflicts. So you can see the conflicts in your file, resolve the conflics, then run the app and make sure everything is working fine, 
+ do the process form step 2.
+ 
+ ie, `git commit -am "resolved conflicst"`
+ 
+ 4. Push your changes to your branch to remnote using
+ 
+ `git push origin <your_branch_name>`
+ 
+ Then open the broweser of git, your can see a new bra ch is created in the repo with your changes
+ 
+ Create pull request to master, there will be `create pull request ` button in the git. 
+ 
+ create it, verify al the changes, you an see all the difference from =your local branch to the masster. 
+ 
+ If everything seems ok to you, then click `merge` button. now all your changes is upated in `master` branch.
+ So if you checkout to master and pull it, you can see master with all your changes .
+ 
+ Thats how its work,
+ 
+ 
+ So the main goal ist to make everyone to work as inependent with their own branch, and merge the chages to master , So for viewing the lastet update on our app, we need to view only the master. We can make build from the master and deploy
+ 
+ Adding a reference for git command https://dzone.com/articles/top-20-git-commands-with-examples
+ 
+ 
 ## Available Scripts
 
 In the project directory, you can run:
