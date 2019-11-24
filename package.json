@@ -6,6 +6,7 @@
     "gsap": "^3.0.1",
     "pure-react-carousel": "^1.23.3",
     "react": "^16.11.0",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.11.0",
     "react-gesture-gallery": "^1.1.0",
     "react-gesture-responder": "^2.1.0",
