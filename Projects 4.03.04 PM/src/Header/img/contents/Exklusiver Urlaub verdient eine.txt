@@ -1,0 +1,29 @@
+Content
+
+Exklusiver Urlaub verdient eine
+Alles-inklusive-Videoprodukion.
+CSS
+
+.Exklusiver-Urlaub-ve {
+
+  width: 730px;
+
+  height: 120px;
+
+  font-family: CircularStd;
+
+  font-size: 46px;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.3;
+
+  letter-spacing: -0.05px;
+
+  color: #282828;
+
+}

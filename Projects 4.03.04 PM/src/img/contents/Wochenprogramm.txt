@@ -1,0 +1,28 @@
+Wochenprogramm
+CSS
+
+.Wochenprogramm {
+
+  width: 212px;
+
+  height: 28px;
+
+  font-family: Rubik;
+
+  font-size: 24px;
+
+  font-weight: 500;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.02px;
+
+  text-align: center;
+
+  color: #141414;
+
+}

@@ -1,0 +1,26 @@
+259€
+CSS
+
+ {
+
+  width: 48px;
+
+  height: 25px;
+
+  font-family: CircularStd;
+
+  font-size: 20.4px;
+
+  font-weight: 500;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.18px;
+
+  color: #ffffff;
+
+}

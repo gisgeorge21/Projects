@@ -1,0 +1,30 @@
+Content
+
+Auf mehr Ebenen berühren, um Gäste zu aktivieren.
+CSS
+
+.Auf-mehr-Ebenen-ber {
+
+  width: 1111px;
+
+  height: 60px;
+
+  font-family: CircularStd;
+
+  font-size: 46px;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.3;
+
+  letter-spacing: -0.05px;
+
+  text-align: center;
+
+  color: #282828;
+
+}

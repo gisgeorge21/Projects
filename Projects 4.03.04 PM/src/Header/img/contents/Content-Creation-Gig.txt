@@ -1,0 +1,29 @@
+Content
+
+Content Creation
+Giggle Tips
+CSS
+
+.Content-Creation-Gig {
+
+  width: 252px;
+
+  height: 48px;
+
+  font-family: Rubik;
+
+  font-size: 14px;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.71;
+
+  letter-spacing: -0.01px;
+
+  color: #7e7e7e;
+
+}

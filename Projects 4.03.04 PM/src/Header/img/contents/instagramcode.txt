@@ -1,0 +1,22 @@
+CSS
+
+.Bitmap {
+
+  width: 134px;
+
+  height: 134px;
+
+  object-fit: contain;
+
+}
+
+HTML
+
+<!-- jpg-->
+
+<img src="img/instagram.jpg"
+
+     
+
+     class="Bitmap">
+

@@ -1,0 +1,28 @@
+Content
+
+Replay
+CSS
+
+.Replay {
+
+  width: 79px;
+
+  height: 28px;
+
+  font-family: Rubik;
+
+  font-size: 24px;
+
+  font-weight: 500;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: normal;
+
+  color: #31afa2;
+
+}

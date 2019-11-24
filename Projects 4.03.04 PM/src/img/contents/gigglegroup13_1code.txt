@@ -1,0 +1,21 @@
+CSS
+
+.Group-13_1 {
+
+  width: 288px;
+
+  height: 386px;
+
+  object-fit: contain;
+
+}
+
+HTML
+
+
+
+<!-- jpg -->
+
+<img src="img/gigglegroup13_1.jpg"
+
+     class="Group-13_1">

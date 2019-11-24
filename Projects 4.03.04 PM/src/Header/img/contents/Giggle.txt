@@ -1,0 +1,30 @@
+Content
+
+Giggle
+CSS
+
+.Giggle {
+
+  width: 56px;
+
+  height: 23px;
+
+  font-family: CircularStd;
+
+  font-size: 18px;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.02px;
+
+  text-align: center;
+
+  color: #282828;
+
+}

@@ -1,0 +1,28 @@
+Montag, 30 September
+CSS
+
+.Montag-30-September {
+
+  width: 212px;
+
+  height: 24px;
+
+  font-family: Rubik;
+
+  font-size: 20px;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.02px;
+
+  text-align: center;
+
+  color: #4f4f4f;
+
+}

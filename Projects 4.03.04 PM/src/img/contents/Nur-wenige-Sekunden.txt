@@ -1,0 +1,30 @@
+Content
+
+Nur wenige Sekunden entscheiden, wie sexy Ihr Hotel wirklich ist. Deshalb ziehen themenbezogene 30-Sekünder die Aufmerksamkeit sicher auf Ihr Urlaubsangebot. Das ist optimal für alle Aktivitäten rund um Ihr Hotel, für das Sportangebot, Ihren SPA und alles, was den Gästen sonst noch Spaß macht.
+CSS
+
+.Nur-wenige-Sekunden {
+
+  width: 1110px;
+
+  height: 58px;
+
+  font-family: Rubik;
+
+  font-size: 22px;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.02px;
+
+  text-align: center;
+
+  color: #505050;
+
+}

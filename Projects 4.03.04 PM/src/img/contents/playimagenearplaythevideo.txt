@@ -1,0 +1,13 @@
+CSS
+
+.XMLID_1354_ {
+
+  width: 21.1px;
+
+  height: 21.1px;
+
+  opacity: 0.7;
+
+  border: solid 1.8px #ffffff;
+
+}

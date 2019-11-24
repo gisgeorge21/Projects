@@ -1,0 +1,11 @@
+CSS
+
+.Rectangle-12 {
+
+  width: 1439px;
+
+  height: 2424px;
+
+  background-color: #f6f6f6;
+
+}

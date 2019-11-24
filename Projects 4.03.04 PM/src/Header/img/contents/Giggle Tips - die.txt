@@ -1,0 +1,28 @@
+Giggle Tips - die neue Form der Erlebniskommunikation
+CSS
+
+.Giggle-Tips---die-ne {
+
+  width: 816px;
+
+  height: 116px;
+
+  font-family: CircularStd;
+
+  font-size: 46px;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.05px;
+
+  text-align: center;
+
+  color: #0b0d0d;
+
+}

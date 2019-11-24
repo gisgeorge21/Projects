@@ -1,0 +1,26 @@
+Information about sport and hiking possibilities
+CSS
+
+.Information-about-sp {
+
+  width: 189.6px;
+
+  height: 75px;
+
+  font-family: CircularStd;
+
+  font-size: 20.4px;
+
+  font-weight: 500;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.18px;
+
+  color: #ffffff;
+
+}

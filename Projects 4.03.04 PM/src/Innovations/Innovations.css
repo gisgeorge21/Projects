@@ -1,0 +1,129 @@
+.innovationsmain{
+    -ms-box-orient:horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    height: inherit;
+    background-color:#f6f6f6;
+}
+.innovationstextBox{
+    width:70%;
+    height: inherit;
+}
+.requestbutton1{
+        background-color: #32b2a5;
+        
+        height : 80px;
+        width : 500px;
+        color : white;
+        font-weight: bold;
+    
+}
+.btnFont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.marginTop{
+    margin-top: 15%;
+}
+.innovationstext{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+}
+.innovationstextBox{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+
+}
+.innovationstextBoxContent{
+    height: inherit;
+}
+
+.rightSideClipartsBox{
+    width: 30%;
+    height: inherit;
+}
+
+.clipartBoxing{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightSideCliparts{
+height:100%;
+background-repeat: no-repeat;
+object-fit: contain;
+background-size:contain;
+border: 0;
+box-shadow: none;
+}
+@media screen and (max-width:600px){
+    .innovationsmain{
+        flex-direction: column;
+    }
+    .innovationstextBox{
+        flex-grow:1;
+        width:100%;
+    }
+    .rightSideClipartsBox{
+        flex-grow: 1;
+        background-size: cover;
+        width:100%;
+    }
+    .clipartBoxing{
+        flex-direction: row;
+        height:15vh;
+
+    }
+    .rightSideCliparts{
+        width:100%;
+
+    }
+    .innovationstextBoxContent>.content{
+        padding-right: 3%;
+    }
+    .rightSideCliparts{
+        background-position: left;
+    }
+}
+.rightSideCliparts-img1{
+    background-image: url("./img/347.JPG");
+
+}
+.rightSideCliparts-img2{
+    background-image: url("./img/microphone.JPG");
+    
+}
+
+.rightSideCliparts-img3{
+    background-image: url("./img/dance.JPG");
+}
+
+.rightSideCliparts-img4{
+    background-image: url("./img/bulb.JPG");
+}
+.leftmargin{
+    margin-left: 35%;
+}
+@media screen and (max-width:420px){
+    .requestbutton1{
+        background-color: #32b2a5;
+        
+        height : 35px;
+        width : 250px;
+        color : white;
+        font-weight: bold;
+    
+    
+}
+.btnFont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+}

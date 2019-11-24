@@ -1,0 +1,21 @@
+CSS
+
+.Bitmap {
+
+  width: 118px;
+
+  height: 117px;
+
+  object-fit: contain;
+
+}
+
+HTML
+
+<!-- png -->
+
+<img src="img/facebook.png"
+
+     
+
+     class="Bitmap">

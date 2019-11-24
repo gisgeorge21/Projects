@@ -1,0 +1,32 @@
+Content
+
+Send
+CSS
+
+.Send {
+
+  width: 36px;
+
+  height: 18px;
+
+  opacity: 0.4;
+
+  font-family: Rubik;
+
+  font-size: 15px;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: normal;
+
+  text-align: center;
+
+  color: #ffffff;
+
+}

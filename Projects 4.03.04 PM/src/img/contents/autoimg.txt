@@ -1,0 +1,21 @@
+CSS
+
+.auto {
+
+  width: 97px;
+
+  height: 63px;
+
+  object-fit: contain;
+
+}
+
+HTML
+
+<!-- jpg -->
+
+<img src="img/auto.jpg"
+
+     
+
+     class="auto">

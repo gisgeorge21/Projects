@@ -1,0 +1,9 @@
+CSS
+
+.Content---New-Style {
+
+  width: 1440px;
+
+  height: 9622px;
+
+}

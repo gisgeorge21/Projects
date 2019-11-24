@@ -1,0 +1,11 @@
+CSS
+
+.upload_thumb {
+
+  width: 31px;
+
+  height: 25px;
+
+  background-color: #ffffff;
+
+}

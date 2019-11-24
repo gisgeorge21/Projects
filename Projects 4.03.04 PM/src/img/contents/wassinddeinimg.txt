@@ -1,0 +1,23 @@
+CSS
+
+.wassinddein {
+
+  width: 445px;
+
+  height: 627px;
+
+  object-fit: contain;
+
+}
+
+HTML
+
+
+
+<!-- jpg -->
+
+<img src="img/wassinddein"
+
+     
+
+     class="wassinddein">

@@ -1,0 +1,30 @@
+Content
+
+Jeder Urlaubstraum passt in ein Video.
+CSS
+
+.Jeder-Urlaubstraum-p {
+
+  width: 824px;
+
+  height: 60px;
+
+  font-family: CircularStd;
+
+  font-size: 46px;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.3;
+
+  letter-spacing: -0.05px;
+
+  text-align: center;
+
+  color: #282828;
+
+}

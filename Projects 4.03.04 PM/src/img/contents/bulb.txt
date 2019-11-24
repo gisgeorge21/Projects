@@ -1,0 +1,20 @@
+CSS
+
+.bulb{
+
+  width: 145px;
+
+  height: 141px;
+
+  object-fit: contain;
+
+}
+
+HTML
+
+<!-- jpg -->
+
+<img src="img/bulb.jpg"     
+
+     class="bulb">
+

@@ -1,0 +1,29 @@
+Content
+
+Wir gestalten Hotel-Videos
+für eine neue Wirklichkeit.
+CSS
+
+.Wir-gestalten-Hotel- {
+
+  width: 850px;
+
+  height: 160px;
+
+  font-family: CircularStd;
+
+  font-size: 65px;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: 1.11;
+
+  letter-spacing: -0.07px;
+
+  color: #ffffff;
+
+}

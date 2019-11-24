@@ -1,0 +1,30 @@
+Content
+
+Holen Sie Ihre Gäste also online so ab, wie Sie es auch in Ihrem Hotel tun würden: Emotional. Und mit dem Besten, das Sie zu bieten haben.Wir schaffen Video-Content mit viel Fantasie, starken Bildern und der Story, die Ihr Hotel ins richtige Licht rückt.
+CSS
+
+.Holen-Sie-Ihre-Gste {
+
+  width: 1110px;
+
+  height: 84px;
+
+  font-family: Rubik;
+
+  font-size: 24px;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.02px;
+
+  text-align: center;
+
+  color: #999999;
+
+}

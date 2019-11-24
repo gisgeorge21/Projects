@@ -1,0 +1,20 @@
+CSS
+
+.Bitmap {
+
+  width: 138px;
+
+  height: 176px;
+
+  object-fit: contain;
+
+}
+
+HTML
+
+<!-- jpg -->
+
+<img src="img/347.jpg"     
+
+     class="347">
+

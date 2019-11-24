@@ -1,0 +1,28 @@
+Content
+
+Ihr Hotel ist einzigartig: Falls nicht, machen wir es dazu. Mit durchdachten Konzepten, einem geschmackvollen Drehbuch und konsequentem Set-Management bringen wir Ihre Stärken zum Vorschein. Bei der Umsetzung entscheiden wir uns immer für das beste Equipment.
+CSS
+
+.Ihr-Hotel-ist-einzig {
+
+  width: 775px;
+
+  height: 140px;
+
+  font-family: Rubik;
+
+  font-size: 24px;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.02px;
+
+  color: #999999;
+
+}

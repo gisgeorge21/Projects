@@ -1,0 +1,28 @@
+Wir verwandeln jedes Urlaubserlebnis in einen einzigartigen, direkt buchbaren Erlebnisguide. Gemacht für die neue Generation von Reisenden.
+CSS
+
+.Wir-verwandeln-jedes {
+
+  width: 774px;
+
+  height: 58px;
+
+  font-family: Rubik;
+
+  font-size: 22px;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.02px;
+
+  text-align: center;
+
+  color: #505050;
+
+}

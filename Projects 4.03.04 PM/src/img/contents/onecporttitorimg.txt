@@ -1,0 +1,23 @@
+CSS
+
+.onecporttitors {
+
+  width: 350px;
+
+  height: 232px;
+
+  object-fit: contain;
+
+  border-radius: 4px;
+
+  background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+HTML
+
+<!-- jpg -->
+
+<img src="img/onecporttitor.jpg"
+
+     class="onecporttitor">

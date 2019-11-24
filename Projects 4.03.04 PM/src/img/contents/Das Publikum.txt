@@ -1,0 +1,30 @@
+Content
+
+Das Publikum von heute ist verwöhnt: Es sucht stets das Besondere. Wir optimieren Ihre Videos, damit sie auf jeder Plattform funktionieren. Sie wollen eine Message transportieren: Das Format, die optimale Länge und den Style dazu haben wir für Sie.
+CSS
+
+.Das-Publikum-von-heu {
+
+  width: 1110px;
+
+  height: 84px;
+
+  font-family: Rubik;
+
+  font-size: 24px;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.02px;
+
+  text-align: center;
+
+  color: #999999;
+
+}

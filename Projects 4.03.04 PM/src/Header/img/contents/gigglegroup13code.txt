@@ -1,0 +1,22 @@
+CSS
+
+.Group-13-Copy {
+
+  width: 255px;
+
+  height: 386px;
+
+  object-fit: contain;
+
+}
+
+HTML
+
+<!-- png -->
+
+<img src="img/gigglegroup13.png"
+
+     
+
+     class="Group-13-Copy">
+

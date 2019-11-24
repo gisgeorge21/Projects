@@ -1,0 +1,30 @@
+Content
+
+Wir freuen uns auf deine Nachricht.
+CSS
+
+.Wir-freuen-uns-auf-d {
+
+  width: 698px;
+
+  height: 20px;
+
+  font-family: Rubik;
+
+  font-size: 17px;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.02px;
+
+  text-align: center;
+
+  color: #999999;
+
+}

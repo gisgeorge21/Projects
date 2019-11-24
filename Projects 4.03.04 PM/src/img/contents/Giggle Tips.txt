@@ -1,0 +1,26 @@
+Giggle Tips
+CSS
+
+.Giggle-Tips {
+
+  width: 95px;
+
+  height: 23px;
+
+  font-family: CircularStd;
+
+  font-size: 18px;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.02px;
+
+  color: #ffffff;
+
+}

@@ -1,0 +1,22 @@
+CSS
+
+.Bitmap {
+
+  width: 100px;
+
+  height: 100px;
+
+  object-fit: contain;
+
+}
+
+HTML
+
+<!-- png -->
+
+<img src="img/printest.png"     
+
+     class="Bitmap">
+
+
+
