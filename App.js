@@ -15,8 +15,6 @@ import SingleImageVideo from './SingleImageVideo/SingleImageVideo'
 import Header from './Header/App'
 import ImgphotoshootCopy from './ImagePhotoshoot/ImgPhotoshootCopy'
 import ImgphotoshooUpdtd from './ImagePhotoshoot/imgPhotoshootUpdated'
-import NewHeader from './Header/Header'
-import Carousel from './Carousel/Carousel'
 import CarouselCopy from './Carousel/CarouselCopy'
 import Modal from 'react-modal';
 import GiggleNew from './Giggle/GiggleNew'
