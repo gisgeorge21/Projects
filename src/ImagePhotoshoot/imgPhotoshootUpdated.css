@@ -227,9 +227,13 @@
 }
 
 .leftsideimg {
-    background-image: url("./PhotoShoot/Erlebnisse.jpg");
-	position:relative;
-	
+	flex-shrink: 0;
+    width: 100%;
+    flex-basis: 50%;
+    height: 100vh;
+    background-size: contain;
+    object-fit: contain;
+    background-repeat: no-repeat;
 	
 }
 
@@ -243,4 +247,32 @@
 }
 .margintop{
     margin-top: 20%;
+}
+
+.half-section {
+    width: 50%;
+    float: left;
+}
+.half-section .leftsideimg {
+    position: relative;
+    left: 150px;
+}
+.half-section.content-right {
+    position: relative;
+    right: 100px;
+    background: #fff;
+    padding: 5%;
+    top: 25px;
+    margin: auto;
+}
+
+@media (max-width: 720px) {
+    .half-section.content-right, .half-section.content-left {
+        width: 100%;
+        padding: 0;
+        left: 0;
+    }
+    .half-section .leftsideimg {
+        left: 0;
+    }
 }
