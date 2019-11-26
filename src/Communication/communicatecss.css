@@ -67,6 +67,10 @@
 	  
   }
   
+  .error {
+      color: red;
+  }
+  
   @media screen and (max-width:600px){
     .communicateFormRowOne{
         flex-wrap: wrap;

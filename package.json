@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "emailjs-com": "^2.4.1",
     "gsap": "^3.0.1",
     "pure-react-carousel": "^1.23.3",
     "react": "^16.11.0",

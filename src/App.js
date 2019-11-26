@@ -9,7 +9,7 @@ import MultipleVideos from './MultipleVideos/App'
 import ThreeImages from './Block4/ThreeImages'
 import ImagePhotoShoot from './ImagePhotoshoot/ImagePhotoshoot'
 import Giggle from './Giggle/giggle'
-import Communicate from './Communication/Communicate'
+import ContactForm from './Communication/Communicate'
 import Footer from './Footer/footer'
 import SingleImageVideo from './SingleImageVideo/SingleImageVideo'
 import Header from './Header/App'
@@ -20,6 +20,7 @@ import Carousel from './Carousel/Carousel'
 import CarouselCopy from './Carousel/CarouselCopy'
 import Modal from 'react-modal';
 import GiggleNew from './Giggle/GiggleNew'
+
 const customStyles = {
    content: {
       top: '49%',
@@ -112,21 +113,21 @@ class App extends React.Component {
                      </div>
                      <div className="links"><span className="font-book mrg-right-30px color-white pointer">Home</span>
 
-            
-                     <span>{(this.state.language) ?
-                        <span className="font-book mrg-right-30px color-white pointer">Leistungen</span> :
-                        <span className="font-book mrg-right-30px color-white pointer">Services</span>
-                    }
-                </span>
-                     <span>{(this.state.language) ?
-                        <span className="font-book mrg-right-30px color-white pointer">Kontakt</span> :
-                        <span className="font-book mrg-right-30px color-white pointer">Contact</span>
-                    }
-                </span>
-               
-                    
-                <a className="font-book mrg-right-30px color-white pointer">Login</a><span
-                           className="font-book mrg-right-30px color-white pointer vdivider relative"><span className= "font-book">{(this.state.language) ? 'De' : 'En'}</span><span
+
+                        <span>{(this.state.language) ?
+                           <span className="font-book mrg-right-30px color-white pointer">Leistungen</span> :
+                           <span className="font-book mrg-right-30px color-white pointer">Services</span>
+                        }
+                        </span>
+                        <span>{(this.state.language) ?
+                           <span className="font-book mrg-right-30px color-white pointer">Kontakt</span> :
+                           <span className="font-book mrg-right-30px color-white pointer">Contact</span>
+                        }
+                        </span>
+
+
+                        <a className="font-book mrg-right-30px color-white pointer">Login</a><span
+                           className="font-book mrg-right-30px color-white pointer vdivider relative"><span className="font-book">{(this.state.language) ? 'De' : 'En'}</span><span
                               className="e-drop-down-nav">
                               <div className="content language">
                                  <a onClick={() => { this.changeLanguage(false); }}>English</a>
@@ -145,20 +146,20 @@ class App extends React.Component {
                         <div className="logo"></div><span className="mrg-left-10px font-medium font-book">Giggle Content</span>
                      </div>
                      <div className="links"><span className="font-book mrg-right-30px pointer">Home</span>
-                     <span
-                        className="font-book mrg-right-30px pointer relative"><span className="font-book">{(this.state.language) ?'Leistungen':'Services'}</span>
-                     </span>
-                     
-                     <span className="font-book mrg-right-30px pointer">{(this.state.language) ?'Kontakt':'Contact'}</span>
-                    
-                     <a className="font-book mrg-right-15px pointer">Login</a>
-                        <span className= "font-book mrg-right-15px pointer slashbold">|</span>
+                        <span
+                           className="font-book mrg-right-30px pointer relative"><span className="font-book">{(this.state.language) ? 'Leistungen' : 'Services'}</span>
+                        </span>
+
+                        <span className="font-book mrg-right-30px pointer">{(this.state.language) ? 'Kontakt' : 'Contact'}</span>
+
+                        <a className="font-book mrg-right-15px pointer">Login</a>
+                        <span className="font-book mrg-right-15px pointer slashbold">|</span>
                         <span className="font-book mrg-right-30px pointer relative"><span className="font-book">{(this.state.language) ? 'De' : 'En'}</span><span
-                              className="h-drop-down-nav">
-                              <div className="content language">
-                                 <a onClick={() => { this.changeLanguage(false); }}>English</a>
-                                 <a className="margin-top-10px" onClick={() => { this.changeLanguage(true); }}>German</a></div>
-                           </span></span></div>
+                           className="h-drop-down-nav">
+                           <div className="content language">
+                              <a onClick={() => { this.changeLanguage(false); }}>English</a>
+                              <a className="margin-top-10px" onClick={() => { this.changeLanguage(true); }}>German</a></div>
+                        </span></span></div>
                   </div>
                   <div className="h-padding"></div>
                </div>
@@ -216,24 +217,24 @@ class App extends React.Component {
 
 
 
-<div className="allChildMargin innerpadding5per">
-            {/*<button onClick={this.changeLanguage}>Toggle Language </button>*/}
-            {/*<NewHeader language={this.state.language} />*/}
-            <CarouselCopy language={this.state.language}/>
-            {/*        <ImgphotoshootCopy />*/}
-            <SocialMedia language={this.state.language} />
-            <Innovations language={this.state.language} />
-            <ThreeImages language={this.state.language} />
-            <SingleImageVideo language={this.state.language} />
-            <ImgphotoshooUpdtd language={this.state.language} />
-            {/*} <ImagePhotoShootUpdated language={this.state.language} />*/}
+            <div className="allChildMargin innerpadding5per">
+               {/*<button onClick={this.changeLanguage}>Toggle Language </button>*/}
+               {/*<NewHeader language={this.state.language} />*/}
+               <CarouselCopy language={this.state.language} />
+               {/*        <ImgphotoshootCopy />*/}
+               <SocialMedia language={this.state.language} />
+               <Innovations language={this.state.language} />
+               <ThreeImages language={this.state.language} />
+               <SingleImageVideo language={this.state.language} />
+               <ImgphotoshooUpdtd language={this.state.language} />
+               {/*} <ImagePhotoShootUpdated language={this.state.language} />*/}
 
-            {/*()} <ImagePhotoShoot language={this.state.language} />*/}
-            {/*} <ImagePhotoShoot language={this.state.language} />*/}
-            {/* <Giggle language={this.state.language} />*/}
-            <GiggleNew language={this.state.language} />
-            <Communicate language={this.state.language} />
-            <Footer language={this.state.language} />
+               {/*()} <ImagePhotoShoot language={this.state.language} />*/}
+               {/*} <ImagePhotoShoot language={this.state.language} />*/}
+               {/* <Giggle language={this.state.language} />*/}
+               <GiggleNew language={this.state.language} />
+               <ContactForm language={this.state.language} />
+               <Footer language={this.state.language} />
             </div>
          </div>
       );
