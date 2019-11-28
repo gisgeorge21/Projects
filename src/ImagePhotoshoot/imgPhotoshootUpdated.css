@@ -200,8 +200,7 @@
 
 .flextextBoxContent {
     height: inherit;
-	
-	
+	clear: both;
 }
 
 @media screen and (max-width:600px) {
@@ -238,7 +237,7 @@
 }
 
 .rightsideimg {
-    background-image: url("./PhotoShoot/FotoVideo Shooting.jpg");
+    /* background-image: url("./PhotoShoot/FotoVideo Shooting.jpg"); */
 }
 
 
@@ -266,6 +265,24 @@
     margin: auto;
 }
 
+.photo-section-2 .icon {
+    width: 90px;
+    float: right;
+}
+
+.photo-section-2 .content-left{
+    position: relative;
+    right: 50px;
+    background: #fff;
+    padding: 5%;
+    top: 25px;
+    margin: auto;
+    z-index: 1;
+}
+.photo-section-2 .rightIng {
+    position: relative;
+    right: 12%;
+}
 @media (max-width: 720px) {
     .half-section.content-right, .half-section.content-left {
         width: 100%;
@@ -274,5 +291,23 @@
     }
     .half-section .leftsideimg {
         left: 0;
+    }
+    .photo-section-2 .content-left {
+        right: 0;
+        top: 0;
+    }
+    .half-section { 
+        width: 100%;
+    }
+
+    .photo-section-2 .rightIng {
+        left: 0;
+    flex-shrink: 0;
+    width: 100%;
+    flex-basis: 50%;
+    height: 100vh;
+    background-size: contain;
+    object-fit: contain;
+    background-repeat: no-repeat;
     }
 }

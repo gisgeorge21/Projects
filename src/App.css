@@ -124,7 +124,7 @@ font-size: 1.5vw;
 
 
 .imgFoto{
-  background-image: url("./img/bitmap.jpg");
+  /* background-image: url("./img/bitmap.jpg"); */
   width:8vw;
   height:8vw;
   background-repeat: no-repeat;
