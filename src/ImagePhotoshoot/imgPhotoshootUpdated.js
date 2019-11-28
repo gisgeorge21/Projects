@@ -2,6 +2,8 @@ import React from 'react';
 import './imgPhotoshootUpdated.css'
 import photoShootImg from './PhotoShoot/Erlebnisse.jpg';
 import autoImg from '../../src/img/auto.jpg';
+import bitMap from '../../src//img/bitmap.jpg';
+import rightImg from './PhotoShoot/FotoVideo-Shooting.jpg'
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -39,26 +41,35 @@ class App extends React.Component {
                     </ScrollAnimation>
                 </div>
 
-                <div className='flexmain svgright svganim margintopminus'>
+                <div className='flexmain svgright svganim margintopminus photo-section-2'>
                     <div className="textBox backWhite">
-                        <div><div className="imgFoto floatRight margintop"></div></div>
-                        <div>{(this.props.language) ?
-                            <div className="flextextBoxContent alignRight ">
-                                <div className="contentHeader"> Foto/Video shooting</div>
-                                <div className="content">Unsere kreativen und erfahrenen Content Producer haben sich darauf spezialisiert
-                                authentische Urlaubsmomente einzufangen und somit Emotionen zu wecken. Ehrlich,
+                        <ScrollAnimation animateIn='bounceInLeft' className="content-left" duration={1.5}>
+                            <div><img src={bitMap} alt="" className="icon" /></div>
+                            <div>{(this.props.language) ?
+                                <div className="flextextBoxContent alignRight ">
+                                    <div className="contentHeader"> Foto/Video shooting</div>
+                                    <div className="content">Unsere kreativen und erfahrenen Content Producer haben sich darauf spezialisiert
+                                    authentische Urlaubsmomente einzufangen und somit Emotionen zu wecken. Ehrlich,
                                 natürlich und up-to-date.</div>
 
-                            </div> :
-                            <div className="flextextBoxContent alignRight ">
-                                <div className="contentHeader">Foto/Video Shooting</div>
-                                <div className="content">Our creative and experienced content producers are specialized in capturing authentic,
-                                holiday moments and arousing emotions. Honest, natural and up-to-date
+                                </div> :
+                                <div className="flextextBoxContent alignRight ">
+                                    <div className="contentHeader">Foto/Video Shooting</div>
+                                    <div className="content">Our creative and experienced content producers are specialized in capturing authentic,
+                                    holiday moments and arousing emotions. Honest, natural and up-to-date
                                 </div>
-                            </div>}
-                        </div>
+                                </div>}
+
+                            </div>
+
+                        </ScrollAnimation>
                     </div>
-                    <div className="fleximg rightsideimg"></div>
+                    <ScrollAnimation animateIn='bounceInRight' className="half-section rightIng" duration={1.5}>
+                        <div className="test fleximg backposright">
+                            <img className="repsonsive" src={rightImg} alt="" />
+                        </div>
+                    </ScrollAnimation>
+
                 </div>
             </div>
         );

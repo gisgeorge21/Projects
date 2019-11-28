@@ -303,11 +303,20 @@ height: auto;
   .feed2 .card{
     position: initial;
   }
-  .mob .instarightside{
-    display: none;
+  .mob .instarightside {
+    margin: 8px 34%;
+    padding: 0px;
+  }
+.instarightside .insta{ 
+    /* display: none; */
+    margin: 0;
+  }
+  .mob .youtube, .mob .printest {
+    left: 0;
   }
   .mob .facebook{
-    display:none;
+    /* display:none; */
+    margin: 0;
   }
   .socialMediaContent{
     height:inherit;
